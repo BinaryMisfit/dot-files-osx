@@ -4,3 +4,12 @@
       path: ../home/config/nvim/init.vim
       create: true
       relink: true
+    ~/.config/nvim/coc-settings.json:
+      path: ../home/config/nvim/coc-settings.json
+      create: true
+      relink: true
+    ~/.config/nvim/config.d:
+      path: ../home/config/nvim/config.d/*.vim
+      create: true
+      glob: true
+      relink: true
