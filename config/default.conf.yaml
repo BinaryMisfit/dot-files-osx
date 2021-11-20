@@ -1,1 +1,6 @@
 ---
+- link:
+    ~/.config/nvim/init.vim:
+      path: ../home/config/nvim/init.vim
+      create: true
+      relink: true
