@@ -14,6 +14,7 @@
     ~/.p10k.zsh: root-files/p10k.zsh
     ~/.ssh/config: ssh/config
     ~/.tmux.conf: root-files/tmux.conf
+    ~/.zshrc: root-files/zshrc
     ~/.config/nvim/config.d:
       path: config/nvim/config.d/*.vim
       glob: true
