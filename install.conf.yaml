@@ -1,15 +1,19 @@
 ---
 - link:
+    ~/.iterm2_shell_integration.zsh:
+      path: root-files/iterm2_shell_integration.zsh
+      create: true
+      relink: true
     ~/.config/nvim/init.vim:
-      path: ../home/config/nvim/init.vim
+      path: config/nvim/init.vim
       create: true
       relink: true
     ~/.config/nvim/coc-settings.json:
-      path: ../home/config/nvim/coc-settings.json
+      path: config/nvim/coc-settings.json
       create: true
       relink: true
     ~/.config/nvim/config.d:
-      path: ../home/config/nvim/config.d/*.vim
+      path: config/nvim/config.d/*.vim
       create: true
       glob: true
       relink: true
