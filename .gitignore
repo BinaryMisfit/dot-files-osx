@@ -1,32 +1,8 @@
 # OS/IDE Files
 .DS_Store
-.vscode/*
-*.code-workspace
-.idea/*.iml
-
-# Temporary  Files
-*/**/*.swp
-*.pid
-
-# Secrets & Keys
-*/**/authorized_keys
-ssh/.ssh/id_*
-ssh/.ssh/known_hosts
-
-# User config
-**/**/packages/*_user
-**/**/packages/checksum
-log/*
-
-# System Folders
-default/nvim/.netrwhist
-
-# Python Cache
-**/__pycache__
 
 # Local Configs
 */**/*.local
-**/*.log
 
-# Local data
-.data/*
+# Log Files
+**/*.log
