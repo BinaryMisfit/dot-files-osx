@@ -5,7 +5,7 @@ if [[ -n ${TMUX+x} ]]; then
 fi
 
 BASE_DIR="${HOME}/.dotfiles"
-if [[ -d "${BASE_DIR}" ]]; then
+if [[ -d "${BASE_DIR}"/.git ]]; then
   VERSION_CURRENT=$(git -C "${BASE_DIR}" rev-parse HEAD)
   VERSION_NEW=$(git ls-remote https://github.com/BinaryMisfit/dot-files-osx HEAD | awk '{ print $1 }')
   if [[ "${VERSION_CURRENT}" != "${VERSION_NEW}" ]]; then
@@ -30,4 +30,6 @@ if [[ -d "${BASE_DIR}" ]]; then
   else
     printf "\r\033[0;92m[ SKIP ]\033[0m Online update\n"
   fi
+else
+    printf "\r\033[0;91m[FAILED]\033[0m Online update\n"
 fi
