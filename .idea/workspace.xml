@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bcaa0b4f-d938-4bd7-9702-2d03bfcad978" name="Changes" comment="Updated IDE settings">
-      <change afterPath="$PROJECT_DIR$/root-files/iterm2_shell_integration.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/root-files/antigenrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/root-files/gitconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/install.conf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/install.conf.yaml" afterDir="false" />
     </list>
@@ -19,6 +23,14 @@
     <option name="SAVE_CHANGES_POLICY" value="STASH" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="21PAeU2cGdULkBDI90wLr8eOSuB" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Remove" />
@@ -31,6 +43,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Mercurial" />
   </component>
   <component name="ShelveChangesManager">
@@ -45,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637832444360</updated>
       <workItem from="1637832446080" duration="10000" />
-      <workItem from="1637832462494" duration="325000" />
+      <workItem from="1637832462494" duration="1595000" />
     </task>
     <task id="LOCAL-00001" summary="Updated IDE settings">
       <created>1637832589928</created>

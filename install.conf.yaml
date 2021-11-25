@@ -1,19 +1,19 @@
 ---
+- defaults:
+    link:
+      create: true
+      relink: true
+- clean: [ '~' ]
 - link:
-    ~/.iterm2_shell_integration.zsh:
-      path: root-files/iterm2_shell_integration.zsh
-      create: true
-      relink: true
-    ~/.config/nvim/init.vim:
-      path: config/nvim/init.vim
-      create: true
-      relink: true
-    ~/.config/nvim/coc-settings.json:
-      path: config/nvim/coc-settings.json
-      create: true
-      relink: true
+    ~/.antigenrc: root-files/antigenrc
+    ~/.gitconfig: root-files/gitconfig
+    ~/.iterm2_shell_integration.zsh: root-files/iterm2_shell_integration.zsh
+    ~/.config/nvim/init.vim: config/nvim/init.vim
+    ~/.config/nvim/coc-settings.json: config/nvim/coc-settings.json
+    ~/.iterm2: iterm2
     ~/.config/nvim/config.d:
       path: config/nvim/config.d/*.vim
-      create: true
       glob: true
-      relink: true
+- shell:
+    - command: exec zsh
+      quiet: true
