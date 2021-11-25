@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcaa0b4f-d938-4bd7-9702-2d03bfcad978" name="Changes" comment="Updated IDE settings">
-      <change afterPath="$PROJECT_DIR$/root-files/antigenrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/root-files/gitconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/root-files/p10k.zsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssh/config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/install.conf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/install.conf.yaml" afterDir="false" />
     </list>
@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637832444360</updated>
       <workItem from="1637832446080" duration="10000" />
-      <workItem from="1637832462494" duration="1595000" />
+      <workItem from="1637832462494" duration="1900000" />
     </task>
     <task id="LOCAL-00001" summary="Updated IDE settings">
       <created>1637832589928</created>
