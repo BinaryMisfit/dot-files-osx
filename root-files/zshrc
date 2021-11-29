@@ -8,7 +8,6 @@ export ITERM2_SQUELCH_MARK=1
 test -e ${HOME}/.dotfiles/update_online.sh && /bin/bash ${HOME}/.dotfiles/update_online.sh
 
 # Load Antigen
-printf "\r\033[0;92m[  ..  ]\033[0m Session startup"
 test -e /opt/homebrew/share/antigen/antigen.zsh && source /opt/homebrew/share/antigen/antigen.zsh
 test -e /usr/local/share/antigen/antigen.zsh && source /usr/local/share/antigen/antigen.zsh
 test -e ${HOME}/.antigenrc && antigen init ${HOME}/.antigenrc
@@ -49,4 +48,3 @@ export PATH
 
 # Run local config
 test -e ${HOME}/.zshrc.local && source ${HOME}/.zshrc.local
-printf "\r\033[0;92m[  OK  ]\033[0m Session startup\n"
