@@ -12,7 +12,9 @@ test -e /opt/homebrew/share/antigen/antigen.zsh && source /opt/homebrew/share/an
 test -e /usr/local/share/antigen/antigen.zsh && source /usr/local/share/antigen/antigen.zsh
 test -e ${HOME}/.antigenrc && antigen init ${HOME}/.antigenrc
 autoload -U compinit && compinit -u
+
 unsetopt BEEP
+setopt inc_append_history
 
 # Source p10k files
 test -e ${HOME}/.p10k.zsh && source ${HOME}/.p10k.zsh
@@ -45,6 +47,3 @@ test -e /usr/local/sbin && PATH=/usr/local/sbin:$PATH
 # Cleanup
 typeset -U PATH
 export PATH
-
-# Run local config
-test -e ${HOME}/.zshrc.local && source ${HOME}/.zshrc.local
