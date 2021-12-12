@@ -5,12 +5,11 @@ export LANGUAGE=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
 
 # Check for updates
-test -e ${HOME}/.dotfiles/update_online.sh && /bin/bash ${HOME}/.dotfiles/update_online.sh
+test -e $HOME/.dotfiles/update_online.sh && /bin/bash $HOME/.dotfiles/update_online.sh
 
 # Load Antigen
-test -e /opt/homebrew/share/antigen/antigen.zsh && source /opt/homebrew/share/antigen/antigen.zsh
-test -e /usr/local/share/antigen/antigen.zsh && source /usr/local/share/antigen/antigen.zsh
-test -e ${HOME}/.antigenrc && antigen init ${HOME}/.antigenrc
+test -e $(brew --prefix)/share/antigen/antigen.zsh && source $(brew --prefix)/share/antigen/antigen.zsh
+test -e $HOME/.antigenrc && antigen init $HOME/.antigenrc
 autoload -U compinit && compinit -u
 
 setopt AUTOCD
@@ -23,7 +22,7 @@ setopt NO_BEEP
 setopt SHARE_HISTORY
 
 # Source p10k files
-test -e ${HOME}/.p10k.zsh && source ${HOME}/.p10k.zsh
+test -e $HOME/.p10k.zsh && source $HOME/.p10k.zsh
 
 # Cleanup
 typeset -U PATH
