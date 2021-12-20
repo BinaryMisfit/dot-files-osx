@@ -6,17 +6,21 @@
 - clean: [ '~', '~/.config', '~/.config/nvim', '~/ssh' ]
 - link:
     ~/.antigenrc: root-files/antigenrc
+    ~/.dircolors: root-files/dircolors
     ~/.gitconfig: root-files/gitconfig
     ~/.config/nvim/init.vim: config/nvim/init.vim
     ~/.config/nvim/coc-settings.json: config/nvim/coc-settings.json
-    ~/.p10k.zsh: root-files/p10k.zsh
-    ~/.ssh/config: ssh/config
-    ~/.tmux.conf: root-files/tmux.conf
-    ~/.zshrc: root-files/zshrc
-    ~/.dircolors: root-files/dircolors
     ~/.config/nvim/config.d:
       path: config/nvim/config.d/*.vim
       glob: true
+    ~/.config/neofetch/config.conf: root-files/neofetch.conf
+    ~/.p10k.zsh: root-files/p10k.zsh
+    ~/.ssh/config: ssh/config
+    ~/.tmux.conf: root-files/tmux.conf
+    ~/.zprofile: root-files/zprofile
+    ~/.zshrc: root-files/zshrc
 - shell:
+    - command: touch ~/.hushlogin
+      quiet: true
     - command: exec zsh
       quiet: true
