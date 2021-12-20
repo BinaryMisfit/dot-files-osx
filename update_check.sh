@@ -8,7 +8,6 @@ if [[ -d "$BASE_DIR/.git" ]]; then
   VERSION_CURRENT=$(git -C "$BASE_DIR" rev-parse HEAD)
   VERSION_NEW=$(git ls-remote https://github.com/BinaryMisfit/dot-files-osx HEAD | awk '{ print $1 }')
   if [[ "$VERSION_CURRENT" != "$VERSION_NEW" ]]; then
-    printf "\r\033[0;93m[UPDATE]\033[0m Online update"
     COMMAND="git -C $BASE_DIR pull --autostash --all --recurse-submodules --rebase --quiet"
     OUTPUT=$(bash -c "$COMMAND" 2>&1)
     EXIT_CODE=$?
