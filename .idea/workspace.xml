@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcaa0b4f-d938-4bd7-9702-2d03bfcad978" name="Changes" comment="" />
+    <list default="true" id="bcaa0b4f-d938-4bd7-9702-2d03bfcad978" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +28,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21PAeU2cGdULkBDI90wLr8eOSuB" />
   <component name="ProjectLevelVcsManager">
@@ -58,6 +64,11 @@
       <workItem from="1637832446080" duration="10000" />
       <workItem from="1637832462494" duration="2383000" />
       <workItem from="1637836301672" duration="1476000" />
+      <workItem from="1639984510793" duration="26000" />
+      <workItem from="1639984566736" duration="35000" />
+      <workItem from="1639984816133" duration="32000" />
+      <workItem from="1639984962367" duration="21000" />
+      <workItem from="1639985564894" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="Updated IDE settings">
       <created>1637832589928</created>
@@ -85,12 +96,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="true" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <confirmRemoveEmptyChangelist value="2" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="15" />
