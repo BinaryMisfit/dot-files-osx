@@ -1,5 +1,10 @@
-if [ -x /opt/homebrew/bin/brew ]; then
-    PATH=$(/opt/homebrew/bin/brew --prefix):$PATH
+if [ -d /opt/homebrew/bin ]; then
+    PATH=/opt/homebrew/bin:$PATH
+    export PATH
+fi
+
+if [ -d /opt/homebrew/sbin ]; then
+    PATH=/opt/homebrew/sbin:$PATH
     export PATH
 fi
 
