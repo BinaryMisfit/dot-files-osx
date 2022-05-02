@@ -20,12 +20,12 @@ set shiftwidth=2                                        " Set tab size to 2
 set shortmess=aoOstTWAcqF                               " Truncate messages in command line
 set showmatch                                           " Show matching cursors
 set signcolumn=yes                                      " Always display the sign column
-set smartcase                                           " Override ignore case when using UPPER
+set smartcase                                           " Override ignore case for UPPER
 set softtabstop=2                                       " Set tab size to 2
-set splitbelow                                          " Always split horizontally to the bottom
+set splitbelow                                          " Always split horizontally bottom
 set splitright                                          " Always split veritcally to the right
 set tabstop=2                                           " Set tab size to 2
-set textwidth=125                                       " Set the width of text to 100 characters
+set textwidth=125                                       " Set the width of text to 125 chars
 set undofile                                            " Create file specific undo file
 set undolevels=500                                      " Remember last 500 changes
 set undoreload=1000                                     " Reload last 1000 changes

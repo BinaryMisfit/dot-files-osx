@@ -9,11 +9,13 @@ if !exists('g:vscode')
         \'coc-omnisharp',
         \'coc-powershell',
         \'coc-python',
+        \'coc-pyls',
+        \'coc-pydocstring',
         \'coc-sh',
         \'coc-sql',
         \'coc-vimlsp',
         \'coc-xml',
-        \'coc-yaml'
+        \'coc-yaml',
         \]
 
   function! s:cocActionsOpenFromSelected(type) abort
