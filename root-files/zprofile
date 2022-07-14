@@ -11,6 +11,11 @@ if [ -d /opt/homebrew/sbin ]; then
     export PATH
 fi
 
+if [ -d /usr/local/share/dotnet ]; then
+    PATH=/usr/local/share/dotnet:$PATH
+    export PATH
+fi
+
 if which neofetch >/dev/null; then
     if [ ! -n "$TMUX" ] && [ -f "$HOME/.config/neofetch/config.conf" ]; then
         $(which neofetch)
