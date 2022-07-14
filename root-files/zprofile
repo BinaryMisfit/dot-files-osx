@@ -21,3 +21,7 @@ if which neofetch >/dev/null; then
         $(which neofetch)
     fi
 fi
+
+if [ -d /Users/binarymisfit/Library/Application Support/JetBrains/Toolbox/scripts ]; then
+    export PATH="$PATH:/Users/binarymisfit/Library/Application Support/JetBrains/Toolbox/scripts"
+fi
